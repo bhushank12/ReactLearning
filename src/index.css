@@ -44,3 +44,84 @@ input[type="color"]{
     border-radius: 10px;
     border: 3px solid;
 }
+
+.to-do-list{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease;
+}
+
+.add-button {
+    background-color: green;
+}
+
+.add-button:hover {
+    background-color: lightgreen;
+}
+
+.delete-button {
+    background-color: red;
+}
+
+.delete-button:hover {
+    background-color: orange;
+}
+
+.move-task-up {
+    background-color: blue;
+}
+
+.move-task-up:hover {
+    background-color: lightblue;
+}
+
+.move-task-down {
+    background-color: purple;
+}
+
+.move-task-down:hover {
+    background-color: lightpink;
+}
+
+input[type="test"]{
+    font-size: 1.6rem;
+    padding: 10px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    color: black;
+}
+
+ol{
+    padding: 0;
+}
+
+li {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: white;
+    margin-bottom: 10px;
+    border: 3px solid red;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.text {
+    flex: 1;
+}
