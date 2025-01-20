@@ -3,6 +3,7 @@ import OnChangeComponent from "./OnChangeComponent.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import ToDoList from "./ToDoList.jsx";
 import ComponentA from "./ComponentA.jsx";
+import StopWatch from "./StopWatch.jsx";
 
 function App() {
   return(
@@ -16,6 +17,8 @@ function App() {
       <ToDoList></ToDoList>
       <br></br>
       <ComponentA></ComponentA>
+      <br></br>
+      <StopWatch></StopWatch>
     </>
   )
 }

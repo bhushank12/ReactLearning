@@ -55,7 +55,7 @@ h1{
     font-size: 4rem;
 }
 
-button{
+/* button{
     font-size: 1.7rem;
     font-weight: bold;
     padding: 10px 20px;
@@ -64,7 +64,7 @@ button{
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.5 ease;
-}
+} */
 
 .add-button {
     background-color: green;
@@ -129,4 +129,46 @@ li {
 .box {
     padding: 25px;
     border: 3px solid; 
+}
+
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid;
+    border-radius: 50px;
+    background-color: white;
+    padding: 30px;
+}
+
+.display {
+    font-size: 5rem;
+    font-family: monospace;
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 25px;
+}
+
+.controls button {
+    font-size: 1.5 rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.start-button {
+    background-color: green;
+}
+
+.stop-button {
+    background-color: red;
+}
+
+.reset-button {
+    background-color: black;
 }
